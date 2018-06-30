@@ -1,0 +1,5 @@
+text eol=lf
+
+app/styles/bootstrap/* linguist-vendored
+app/styles/fut.less linguist-vendored
+app/styles/sprites.less linguist-vendored

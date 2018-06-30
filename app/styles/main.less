@@ -1,0 +1,56 @@
+@import "bootstrap/bootstrap.less";
+@import "variables.less";
+@import "mixins.less";
+@import "theme.less";
+@import "icons.less";
+@import "retina.less";
+@import "setup.less";
+@import "radial.less";
+@import "preferences.less";
+@import "header.less";
+@import "layout.less";
+@import "left-panel.less";
+@import "right-panel.less";
+@import "new-container.less";
+@import "container-home.less";
+@import "container-logs.less";
+@import "container-settings.less";
+@import "spinner.less";
+@import "animation.less";
+@import "container-progress.less";
+@import "loading.less";
+@import "fut.less";
+@import "sprites.less";
+@import (inline) '../../node_modules/react-joyride/lib/styles/react-joyride-compiled.css';
+
+@font-face {
+  font-family: "EA";
+  src: url("../fonts/EASPORTS15.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  font-family: @font-regular;
+  cursor: default;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizelegibility;
+  img {
+    pointer-events: none;
+  }
+  a {
+    cursor: pointer;
+  }
+}
+
+ #root, #root-main {
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+   background: none;
+ }
